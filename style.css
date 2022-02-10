@@ -33,3 +33,18 @@
 .spanex {
     font-size: 50px;
 }
+
+.container {
+    background-color: skyblue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.child-container {
+    margin: 10px;
+    padding: 10px;
+    background-color: royalblue;
+    width: 20%;
+}
